@@ -38,6 +38,11 @@ Displays typo-squatting categories exhibited by adversarial package WRT base pac
 $ python3 __main__.py <base_package_name> <potentially_malicious_package_name>
 ```
 
+For example:
+```
+python3 __main__.py gray-matter grey-matter
+```
+
 To run the detector rules in a sample of our popular and unpopular package files run the following.
 
 ```
