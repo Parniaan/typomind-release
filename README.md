@@ -22,7 +22,7 @@ One of the detection rule requires the "fasttext-vectors" word vector. Download 
 python3 tools/fasttext.py
 ```
 
-The saved model needs to be placed into [`core/models`](models). 
+The saved model needs to be placed into [`core/models`](core/models). 
 
 Alternatively you can download the required `fasttext-vectors.kv.vectors.npy` file from [OSF](https://osf.io/m387c?view_only=b56d63194ef84ce4ba85ec00ee57cd05) and save it in  `/core/models`
 
