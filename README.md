@@ -9,7 +9,12 @@ The core detection implementations
 Tools used to implement various parts
 
 ## Setup
-One of the detection rule requires the "fasttext-vectors" word vector. Download it from `https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip` and use the `tools/fasttext.py` to convert it into the saved model. The saved model needs to be placed into `core/models`. 
+One of the detection rule requires the "fasttext-vectors" word vector. Download it from `https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip` unzip it, paste the unzipped crawl-300d-2M-subword folder in [data](data) and update the relative path in `tools/fasttext.py`. Finally convert it into the saved model using the following command:
+```
+python3 tools/fasttext.py
+```
+
+The saved model needs to be placed into `core/models`. 
 
 Alternatively you can download the required `fasttext-vectors.kv.vectors.npy` file from [OSF](https://osf.io/m387c?view_only=b56d63194ef84ce4ba85ec00ee57cd05) and save it in  `/core/models`
 
