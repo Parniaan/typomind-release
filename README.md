@@ -9,6 +9,14 @@ The core detection implementations
 Tools used to implement various parts
 
 ## Setup
+Create a Python virtual environment
+```
+Python3 -m venv myvenv
+```
+Then, activate the virtual environment
+
+Follow [this link](https://docs.python.org/3/tutorial/venv.html) from Python docs.
+
 One of the detection rule requires the "fasttext-vectors" word vector. Download it from `https://dl.fbaipublicfiles.com/fasttext/vectors-english/crawl-300d-2M-subword.zip` unzip it, paste the unzipped crawl-300d-2M-subword folder in [data](data) and update the relative path in `tools/fasttext.py`. Finally convert it into the saved model using the following command:
 ```
 python3 tools/fasttext.py
